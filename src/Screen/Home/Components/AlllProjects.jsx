@@ -21,7 +21,7 @@ const AlllProjects = () => {
             <div className="max-w-[1400px] mx-auto">
 
                 {/* ---------------- MASONRY GRID ---------------- */}
-                <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-3 gap-2 space-y-2">
+                <div className="columns-3 gap-2 space-y-2">
 
                     {designs.map((item, index) => (
                         <div
