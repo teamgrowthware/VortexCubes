@@ -19,10 +19,12 @@ function App() {
      <div className=' p-8'>
       <ExpertiseSection/>
      <RecentWorks/>
-     </div>
-   <Process/>
+        <Process/>
+        
    <Services/>
    <Faq/>
+     </div>
+
      </div>
    </>
   )
