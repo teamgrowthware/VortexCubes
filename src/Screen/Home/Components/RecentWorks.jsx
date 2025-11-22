@@ -10,7 +10,7 @@ export default function RecentWorks() {
   const [hovered, setHovered] = useState(null);
 
   const slides = [
-    { id: 1, img: "/mnt/data/39fba786-be32-4ba7-a5dd-ddeb0df5e600.png" },
+    { id: 1, img: "https://framerusercontent.com/images/aS6TUjI9YxlGwDeky4ti5lNhvk.png?width=2044&height=1522" },
     { id: 2, img: "https://framerusercontent.com/images/rllHGSR2FRWtiwbcY2zXr5yYNA.png" },
     { id: 3, img: "https://framerusercontent.com/images/hD7JZ9vucYI8VhWUTe0pi4jg5Y.png" },
     { id: 4, img: "https://images.unsplash.com/photo-1618761714954-0b8cd0026356" },
@@ -29,7 +29,6 @@ export default function RecentWorks() {
         </div>
 
         <div className="relative sm:mx-20">
-
           {/* LEFT ARROW */}
           <button
             className="swiper-prev absolute left-0 top-1/2 -translate-y-1/2
@@ -76,7 +75,7 @@ export default function RecentWorks() {
                   {/* Image */}
                   <img
                     src={item.img}
-                    className={`w-full h-96 rounded-md object-cover transition-all duration-500 
+                    className={`w-full h-96 rounded-md object-cover transition-all duration-500 grayscale group-hover:grayscale-0  
                     ${hovered === index ? "scale-105" : "scale-100"}
                   `}
                   />

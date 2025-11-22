@@ -67,9 +67,11 @@ export default function Services() {
       </style>
 
       {/* Badge */}
-      <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-4 bg-white/5 backdrop-blur-md rounded-full border border-white/20 text-xs">
+      <div className="text-white bg-neutral-900 px-4 py-2 rounded-full gap-3 text-lg inline-flex items-center shadow-[0_-8px_12px_rgba(0,0,0,0.25)]">
         <span className="w-2 h-2 bg-white rounded-full"></span>
-        <span>Our Services</span>
+         <span >
+                Our Services
+              </span>
       </div>
 
       <h1 className="text-[72px] font-light leading-tight mb-4">Services</h1>
