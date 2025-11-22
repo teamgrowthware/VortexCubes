@@ -1,13 +1,14 @@
 import { useState } from 'react'
-import Home from './Screen/Home/Home'
+
+import Process from './Screen/Home/Components/Process'
 
 
 function App() {
 
   return (
-    <>
-     <Home/>
-    </>
+   <>
+   <Process/>
+   </>
   )
 }
 
