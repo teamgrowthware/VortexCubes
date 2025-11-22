@@ -28,7 +28,7 @@ export default function RecentWorks() {
           <CircleArrowDown  className="w-8 h-8" />
         </div>
 
-        <div className="relative mx-20">
+        <div className="relative sm:mx-20">
 
           {/* LEFT ARROW */}
           <button
