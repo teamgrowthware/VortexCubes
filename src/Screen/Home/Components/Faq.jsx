@@ -49,7 +49,7 @@ export default function Faq() {
   };
 
   return (
-    <div className="w-full min-h-screen bg-black text-white px-6 md:px-20 pt-28 pb-20">
+    <div className="w-full min-h-screen bg-black text-white px-6 md:px-20 pt-10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
 
         {/* LEFT SECTION: FAQ badge, heading, subtext, image, tags */}

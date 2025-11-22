@@ -46,7 +46,7 @@ export default function Services() {
   ];
 
   return (
-    <div className="w-full min-h-screen bg-black text-white px-6 md:px-20 pt-20 pb-20">
+    <div className="w-full bg-black text-white px-6 ">
 
       {/* --- Animation CSS --- */}
       <style>
