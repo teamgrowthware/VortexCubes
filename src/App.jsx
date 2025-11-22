@@ -7,12 +7,14 @@ import RecentWorks from './Screen/Home/Components/RecentWorks'
 import Process from './Screen/Home/Components/Process'
 import Faq from './Screen/Home/Components/Faq'
 import Services from './Screen/Home/Components/Services'
+import Navbar from './Screen/Auth/Navbar'
 
 
 function App() {
   return (
     <>
     <div className='bg-black'>
+      <Navbar/>
      <Home/>
     
      <AlllProjects/>
