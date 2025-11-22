@@ -4,6 +4,8 @@ import ExpertiseSection from './Screen/Home/Components/OurExpertise'
 import AlllProjects from './Screen/Home/Components/AlllProjects'
 import RecentWorks from './Screen/Home/Components/RecentWorks'
 
+import Process from './Screen/Home/Components/Process'
+
 
 function App() {
 
@@ -18,7 +20,8 @@ function App() {
      <RecentWorks/>
      </div>
      </div>
-    </>
+   <Process/>
+   </>
   )
 }
 
